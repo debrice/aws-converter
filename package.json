@@ -1,0 +1,31 @@
+{
+  "name": "aws-converter",
+  "version": "0.0.1",
+  "description": "The AWS converter to be used with lambda",
+  "main": "src/converter.js",
+  "scripts": {
+    "test": "node ./node_modules/jest/bin/jest.js"
+  },
+  "devDependencies": {
+    "aws-sdk": "2.54.0",
+    "jest": "^20.0.4",
+    "webpack": "^3.4.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/debrice/aws-converter.git"
+  },
+  "keywords": [
+    "aws",
+    "lambda",
+    "converter",
+    "marshall",
+    "unmarshall"
+  ],
+  "author": "Brice <bbrriiccee@gmail.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/debrice/aws-converter/issues"
+  },
+  "homepage": "https://github.com/debrice/aws-converter#readme"
+}
