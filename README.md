@@ -7,6 +7,18 @@ dynamodb stream.
 This Library have been created to resolve this issue without having to
 manually add AWS-SDK within your bundle.
 
+## install
+
+```
+npm install aws-converter
+```
+
+or
+
+```
+yarn add aws-converter
+```
+
 ## Usage
 
 ```js
