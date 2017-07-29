@@ -13,22 +13,22 @@ manually add AWS-SDK within your bundle.
 import { marshall, unmarshall } from "aws-converter"
 
 
-marshall({
-  baz: { S: "foo bar" },
-  fooz: {
-    L: [
-      {
-        S: "foo",
-      },
-      {
-        N: "32.23",
-      },
-    ],
-  },
-})
-// {baz: "foo bar", fooz: ["foo", 32.23]}
+marshall({bar: "foo bar", fooz: ["foo", "32.23"] })
+//{
+//   baz: { S: "foo bar" },
+//   fooz: {
+//     L: [
+//       {
+//         S: "foo",
+//       },
+//       {
+//         N: "32.23",
+//       },
+//     ],
+//   },
+// })
 
-unmarshall({bar: { N: "32.23" }})
+unmarshall()
 // {bar: 32.23}
 
 ```

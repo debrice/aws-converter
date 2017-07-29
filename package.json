@@ -1,17 +1,19 @@
 {
   "name": "aws-converter",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "The AWS converter to be used with lambda",
   "main": "src/converter.js",
   "scripts": {
     "test": "node ./node_modules/jest/bin/jest.js"
   },
   "devDependencies": {
-    "aws-sdk": "2.54.0",
     "jest": "^20.0.4",
     "webpack": "^3.4.1"
   },
   "peerDependencies": {
+    "aws-sdk": "2.54.0"
+  },
+  "dependencies": {
     "aws-sdk": "2.54.0"
   },
   "repository": {
